@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iBook</title>
+	<link rel="shortcut icon" type="image/png" href="favicon.ico">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="mutual.css">
+  <link rel="stylesheet" href="padress.css">
+</head>
+<body>
+	<div style="bgcolor: #BAB2B5">
+		<div class="six"><h3><span>iBook</span></h3></div>
+	</div>
+	<ul class="nav nav-tabs">
+	<li class="nav-item">
+			<a class="nav-link home" href="index.html">Home</a>
+	</li>
+	<li class="nav-item">
+			<a class="nav-link" href="Padress.html">Price list</a>
+	</li>
+	<li class="nav-item">
+			<a class="nav-link Contact information" href="coninfo.html">Genres of books</a>
+	</li>
+	<li class="nav-item">
+			<a class="nav-link Contact information" href="reviews.html">Reviews</a>
+	</li>
+	</ul>
+	<div class="row flex-items-xs-middle flex-items-xs-center">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		  $("#flip").click(function(){
+		    $("#panel").slideToggle("slow");
+		  });
+		});
+		</script>
+
+		</head>
+		<body>
+
+		<div id="flip">About prices!</div>
+		<div id="panel">Here you can get acquainted with the prices and available services. Choose what is more convenient for you. I hope you like our website!Here you can get acquainted with the prices and available services. Choose what is more convenient for you. I hope you like our website!</div>
+
+    <!-- Table #1  -->
+    <div class="col-xs-12 col-lg-4">
+      <div class="card text-xs-center">
+        <div class="card-header">
+          <h3 class="display-2"><span class="currency">990</span>т<span class="period">/mon</span></h3>
+        </div>
+        <div class="card-block text-center">
+          <h4 class="card-title">
+            Basic Plan
+          </h4>
+          <ul class="list-group">
+            <li class="list-group-item">200,000 books</li>
+            <li class="list-group-item">limit time</li>
+            <li class="list-group-item">comfortable interface</li>
+          </ul>
+          <a href="#" class="btn btn-gradient mt-2">Choose Plan</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Table #1  -->
+    <div class="col-xs-12 col-lg-4">
+      <div class="card text-xs-center">
+        <div class="card-header">
+          <h3 class="display-2"><span class="currency">1990</span>т<span class="period">/mon</span></h3>
+        </div>
+        <div class="card-block text-center">
+          <h4 class="card-title">
+            Regular Plan
+          </h4>
+          <ul class="list-group">
+            <li class="list-group-item">500,000 books</li>
+            <li class="list-group-item">10 hours in day</li>
+            <li class="list-group-item">comfortable interface</li>
+          </ul>
+          <a href="#" class="btn btn-gradient mt-2">Choose Plan</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Table #1  -->
+    <div class="col-xs-12 col-lg-4">
+      <div class="card text-xs-center">
+        <div class="card-header">
+          <h3 class="display-2"><span class="currency">2990</span>т<span class="period">/mon</span></h3>
+        </div>
+        <div class="card-block text-center">
+          <h4 class="card-title">
+            Premium Plan
+          </h4>
+          <ul class="list-group">
+            <li class="list-group-item">700,000 books</li>
+            <li class="list-group-item">24/7 in day</li>
+            <li class="list-group-item">comfortable interface</li>
+          </ul>
+          <a href="#" class="btn btn-gradient mt-2">Choose Plan</a>
+        </div>
+      </div>
+    </div>
+    <title>Welcome To Registration Form</title>
+	</head>
+	<div id="main">
+	<div class="h-tag">
+	<h2>Create Your Account</h2>
+	</div>
+	<!-- create account div -->
+	<div class="login">
+	<table cellspacing="2" align="center" cellpadding="8" border="0">
+	<tr>
+	<td align="right">Enter Name :</td>
+	<td><input type="text" placeholder="Enter user here" id="t1" class="tb" /></td>
+	</tr>
+	<tr>
+	<td align="right">Enter Email ID :</td>
+	<td><input type="text" placeholder="Enter Email ID here" id="t2" class="tb" /></td>
+	</tr>
+	<tr>
+	<td align="right">Enter Username :</td>
+	<td><input type="text" placeholder="Enter Username here" id="t3" class="tb" /></td>
+	</tr>
+	<tr>
+	<td align="right">Enter Password :</td>
+	<td><input type="password" placeholder="Enter Password here" id="t4" class="tb" /></td>
+	</tr>
+	<tr>
+	<td align="right">Enter Confirm Password :</td>
+	<td><input type="password" placeholder="Enter Password here" id="t5" class="tb" /></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td>
+	</tr>
+	</table>
+	<button onclick="alert('Oh no, something happened wrong, try again;(');">Clear form</button>
+	<button onclick="alert('You have successfully registered!');">Create Account</button>
+</table>
+<script>
+$(".error").text("");
+$('#first-name-info').removeClass("error");
+$('#last-name-info').removeClass("error");
+$('#register-email-info').removeClass("error");
+$('#contact-no-info').removeClass("error");
+$('#register-passwd-info').removeClass("error");
+$('#confirm-passwd-info').removeClass("error");
+
+var firstName = $('#first-name').val();
+var lastName = $('#last-name').val();
+var emailId = $('#register-email-id').val();
+var contactNumber = $('#contact-number').val();
+var password = $('#register-password').val();
+var confirmPassword = $('#confirm-password').val();
+var actionString = 'registration';
+
+if (firstName == "") {
+$('#first-name-info').addClass("error");
+$(".error").text("required");
+} else if (!pregMatch(firstName)) {
+$('#first-name-info').addClass("error");
+$(".error").text('Alphabets and white space allowed');
+} else if (lastName == "") {
+$('#last-name-info').addClass("error");
+$(".error").text("required");
+
+} else if (!pregMatch(lastName)) {
+$('#last-name-info').addClass("error");
+$(".error").text('Alphabets and white space allowed');
+} else if (emailId == "") {
+$('#register-email-info').addClass("error");
+$(".error").text("required");
+} else if (!validateEmailId(emailId)) {
+$('#register-email-info').addClass("error");
+$(".error").text("Invalid");
+} else if (contactNumber == "") {
+$('#contact-no-info').addClass("error");
+$(".error").text("required");
+} else if (isNaN(contactNumber)  (contactNumber.indexOf(" ") != -1)  contactNumber.length > 10) {
+$('#contact-no-info').addClass("error");
+$(".error").text("Invalid");
+} else if (password == "") {
+$('#register-passwd-info').addClass("error");
+$(".error").text("required");
+} else if (confirmPassword == "") {
+$('#confirm-passwd-info').addClass("error");
+$(".error").text("required");
+} else if (password != confirmPassword) {
+$('#confirm-passwd-info').addClass("error");
+$(".error").text("Your confirm password does not match.");
+}
+...
+</script>
+</html>

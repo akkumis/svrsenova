@@ -1,0 +1,23 @@
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+td{
+    font-family: century schoolbook;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+#selector{
+    background-color: wheat;
+    width:90%;
+    margin-left:80px ;
+    margin-top: 10px;
+}
+.select{
+    display: inline-block;
+    margin-left: 20px;
+    position: center;
+}
